@@ -1,0 +1,15 @@
+,value
+best_params,"{'C': np.float64(213.6832907235874), 'gamma': np.float64(0.0007068974950624604)}"
+best_cv_f1,0.9606409788913797
+test_accuracy,0.9672544080604534
+test_precision,0.9672553102270242
+test_recall,0.9672544080604534
+test_f1_weighted,0.9672541771944735
+pca_n_components,200
+feature_dim_original,2116
+cv_accuracy_mean,0.9685978169605374
+cv_accuracy_std,0.0025384074656307075
+cv_f1_mean,0.9685968455451086
+cv_f1_std,0.0025388977027048704
+img_size,128
+inference_mean_ms,12.860474586486816
