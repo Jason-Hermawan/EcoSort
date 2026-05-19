@@ -2,11 +2,11 @@
 
 Sistem klasifikasi sampah organik dan anorganik berbasis Computer Vision dan Machine Learning (SVM-RBF dengan fitur visual).
 
-> **Computer Vision Project · Kelas LG01 · BINUS University · TA 2025/2026**
+> **Computer Vision Project · Kelas LG01 · BINUS University · Kelompok 8**
 
 ## 🌐 Live Demo
 
-Aplikasi dapat diakses di: **[ecosort-ai.streamlit.app](https://ecosort-ai.streamlit.app)**
+Aplikasi dapat diakses di: **[ecosort-cv.streamlit.app](https://ecosort-cv.streamlit.app)**
 
 ## 👥 Anggota Kelompok
 
@@ -20,7 +20,7 @@ Aplikasi dapat diakses di: **[ecosort-ai.streamlit.app](https://ecosort-ai.strea
 
 | Tahap            | Teknik                                                    |
 | Preprocessing    | Resize 128×128, konversi RGB+HSV, normalisasi, augmentasi |
-| Ekstraksi Fitur  | Color Histogram (HSV) + LBP + HOG → 2116-dim              |
+| Ekstraksi Fitur  | Color Histogram (HSV) + LBP + HOG                         |
 | Reduksi Dimensi  | Principal Component Analysis (PCA)                        |
 | Classifier Utama | SVM kernel RBF (binary: organik vs anorganik)             |
 | Sub-Classifier   | SVM-RBF multiclass (6 sub-kategori anorganik)             |
@@ -47,15 +47,6 @@ ecosort-ai/
 └── test/                        # Gambar test cases
     ├── sayur.jpg
     └── ...
-```
-
-## 🚀 Cara Menjalankan Secara Lokal
-
-```bash
-git clone https://github.com/USERNAME/ecosort-ai.git
-cd ecosort-ai
-pip install -r requirements.txt
-streamlit run app.py
 ```
 
 ## 📊 Dataset
